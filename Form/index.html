@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <form action="#" method="post">
+    <fieldset>
+      <legend>Personal information</legend>
+      <div>
+        <label>Surname:</label>
+        <input type="text" name="Surname" autocomplete="off">
+      </div>
+      <div>
+        <label>Name:</label>
+        <input type="text" name="name" autocomplete="off">
+      </div>
+      <div>
+        <label>How old are You?</label>
+        <input type="number" name="age" required placeholder="12" min="1" max="100">
+
+      </div>
+      <div>
+        <label>Full date of birth:</label>
+        <input type="date" name="number" placeholder="mm/dd/yyyy">
+      </div>
+      <div>
+        <label>I accept the tern of the agreement</label>
+        <input type="checkbox" name="checkbox">
+      </div>
+
+    </fieldset>
+  </form>
+
+  <form action="#" method="post">
+    <fieldset>
+      <legend>Registration</legend>
+      <div>
+        <label>E-mail:</label>
+        <input type="Email" name="E-mail" placeholder="email@example.com">
+      </div>
+      <div>
+        <label>Password:</label>
+        <input type="password" name="password" minlength="6" maxlength="12">
+      </div>
+    </fieldset>
+
+
+  </form>
+
+  <form action="#" method="post">
+    <fieldset>
+      <legend>An intersting fact about you</legend>
+      <div>
+        <label>Do you love cats?</label>
+        <input type="radio" name="yes">
+        Yes
+        <input type="radio" name="no">
+        No
+      </div>
+      <div>
+        <label>What is your favorite color?
+          <input type="color" name="color">
+          </select>
+        </label>
+      </div>
+
+      <div>
+        <label>What time do you go to bed?</label>
+        <input type="time" name="time">
+      </div>
+      <div>
+        <label>Wha are you favorite brand of cars?
+          <select name="cars" multiple>
+            <option>BMW</option>
+            <option>Audi</option>
+            <option>Lada</option>
+          </select>
+        </label>
+      </div>
+      <div>
+        <label>How do you rate our work?</label>
+        <input type="range" name="rate">
+      </div>
+    </fieldset>
+
+
+
+  </form>
+
+  <form action="#" method="get">
+    <fieldset>
+      <legend>Additional info</legend>
+      <div>
+        <label>Comments:</label>
+        <textarea name="feedback" id="" cols="20" rows="2"></textarea>
+      </div>
+      <div>
+        <label>Would you recommend us?</label>
+          <select name="switch" id="">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+          </select>
+        
+
+      </div>
+
+
+    </fieldset>
+
+  </form>
+
+
+
+</body>
+
+</html>
